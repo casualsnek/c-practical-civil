@@ -8,10 +8,10 @@ int main() {
     int n, fc=1;
     printf("Enter a number : ");
     scanf("%d", &n);
-    do {
+    while (n>0) {
         fc = fc*n;
         n--;
-    } while (n>0);
+    }
     printf("Factorial is : %d", fc);
     getch();
 }
